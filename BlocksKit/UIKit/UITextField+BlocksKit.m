@@ -94,7 +94,7 @@
 
     //添加代码
     if (realDelegate && [realDelegate isKindOfClass:NSClassFromString(@"UIEditUserWordController")]) {
-        return;
+        return ret;
     }
     //end
 
@@ -132,7 +132,7 @@
 
    //添加代码
     if (realDelegate && [realDelegate isKindOfClass:NSClassFromString(@"UIEditUserWordController")]) {
-        return;
+        return ret;
     }
     //end
 
